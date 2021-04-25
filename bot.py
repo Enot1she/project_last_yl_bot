@@ -14,7 +14,7 @@ from config import *
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token="1627320066:AAEah-vfuPADJlDmIK4zZEMnoZR_hkqhjLI")
+bot = Bot(token="")
 dp = Dispatcher(bot)
 
 con = sqlite3.connect('db.sqlite', check_same_thread=False)
